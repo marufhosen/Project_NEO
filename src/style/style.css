@@ -1,0 +1,106 @@
+body{
+    margin-top: 90px;
+}
+
+.navbar{
+    
+    border-bottom: #551743 3px solid;
+    color: black;
+    background: white;
+    opacity: 1;
+}
+
+.navbar .container p{
+    color: black;
+    font-size: 12px;
+}
+
+.navbar ul li a{
+    color: black;
+    font-size: large;
+}
+
+.navbar ul li a:hover{
+    border-bottom: #551743 solid 3px;
+}
+
+.navbar .nav-item{
+    font-size: 23px;
+    padding-right: 20px;
+}
+.navbar .nav-item:last-child{
+    padding-right: 0;
+}
+#showcase{
+    background: url('/src/img/AI.png') no-repeat;
+    color: white;
+    min-height: 600px;
+    position: relative;
+}
+#showcase .overlay{
+    background:  rgba(85,23,67,0.7);
+    min-height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+#showcase .container{
+    margin-top: 200px;
+}
+#showcase h1{
+    color: white;
+}
+
+#supervisor .container .title{
+    font-weight: 400;
+    font-size: x-large;
+}
+#about .container .title{
+    font-weight: 400;
+    font-size: x-large;
+}
+#projectinfo .container .title{
+    font-weight: 400;
+    font-size: x-large;
+}
+#projectinfo .container .div i{
+    color: #a8458b;
+}
+#projectinfo .container ul{
+    list-style: none;
+    background: #f6f6f6;
+}
+#projectinfo .container ul li{
+    list-style-type: square;
+}
+
+#contact button{
+    background: #6e2d5b;
+    color: white;
+
+}
+#contact button:hover{
+    background: #a8458b;
+}
+
+#contact .container .col-lg-12 .lead{
+    font-weight: 400;
+    font-size: x-large;
+}
+#contact .container .col-lg-12 .lead i{
+    color: #a8458b;
+}
+footer{
+    background: #6e2d5b;
+    color: white;
+}
+footer .container a i{
+    font-size: xx-large;
+    color: white;
+}
+footer .container .footm{
+    font-size: 15px;
+}
