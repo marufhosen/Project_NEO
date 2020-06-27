@@ -22,6 +22,7 @@ body{
 
 .navbar ul li a:hover{
     border-bottom: #551743 solid 3px;
+    padding-bottom: 2px;
 }
 
 .navbar .nav-item{
