@@ -33,7 +33,7 @@ body{
     padding-right: 0;
 }
 #showcase{
-    background: url('/src/img/AI.png') no-repeat;
+    background: url('src/img/AI.png') no-repeat;
     color: white;
     min-height: 600px;
     position: relative;
